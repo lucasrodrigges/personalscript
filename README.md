@@ -24,7 +24,6 @@ This script, in addition to updating the system, will install flatpak support. I
 
 ### Install Instructions
 
-Just use this at terminal:
 ```
 cd Downloads && 
 wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/linux-script.sh && 
@@ -71,15 +70,6 @@ This script will install brew to get applications, modify security permissions a
   <li>Notion</li>
 </ul>  
 
-
-
-
-
-
-
-
-
-
 ### Install Instructions
 
 At first, install brew:
@@ -97,6 +87,8 @@ sudo spctl --master-disable
 ```
 Now donwload the `script.sh` and run it using:
 ```
-cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/mac-script.sh && chmod +x mac-script.sh && ./mac-script.sh
-```
+cd Downloads && 
+wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/mac-script.sh && 
+chmod +x mac-script.sh && ./mac-script.sh
 
+```
