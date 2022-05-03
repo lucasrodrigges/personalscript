@@ -24,6 +24,11 @@ Anydesk
 
 ### Install Instructions
 
+At first, install git:
+```
+sudo apt install git -y
+```
+
 Use this:
 ```
 cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personal-script/main/linux-script.sh && sudo chmod +x linux-script.sh && sudo ./linux-script.sh
