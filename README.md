@@ -10,16 +10,16 @@ This script, in addition to updating the system, will install flatpak support. I
 <ul style="list-style-type:disc;">
   <li>Google Chrome</li>
   <li>Phyton</li>
-  <liv>QJack</liv>
-  <liv>VSCode</liv>
-  <liv>FLameshot</liv>
-  <liv>Sublime Text</liv>
-  <liv>VLC</liv>
-  <liv>Discord</liv>
-  <liv>OBS</liv>
-  <liv>Github Desktop</liv>
-  <liv>Anydesk</liv>
-  <liv>GTKStressTesting</liv>
+  <li>QJack</li>
+  <li>VSCode</li>
+  <li>FLameshot</li>
+  <li>Sublime Text</li>
+  <li>VLC</li>
+  <li>Discord</li>
+  <li>OBS</li>
+  <li>Github Desktop</li>
+  <li>Anydesk</li>
+  <li>GTKStressTesting</li>
 </ul>
 
 ### Install Instructions
@@ -44,30 +44,30 @@ This script will install brew to get applications, modify security permissions a
   <li>Google Chrome</li>
   <li>Firefox</li>
   <li>Whatsapp</li>
-  <liv>Telegram</liv>
-  <liv>Discord</liv>
-  <liv>Slack</liv>
-  <liv>Zoom</liv>
-  <liv>Sublime Text</liv>
-  <liv>VSCode</liv>
-  <liv>Hackintool</liv>
-  <liv>Git</liv>
-  <liv>Android Studio</liv>
-  <liv>Anydesk</liv>
-  <liv>Balena Etcher</liv>
-  <liv>BlackHole-2ch</liv>
-  <liv>OBS</liv>
-  <liv>Steam</liv>
-  <liv>QBittorrent</liv>
-  <liv>Reaper</liv>
-  <liv>Google Drive</liv>
-  <liv>Stats</liv>
-  <liv>VLC</liv>
-  <liv>Spotify</liv>
-  <liv>Rectangle</liv>
-  <liv>Geekbench</liv>
-  <liv>Android File Transfer</liv>
-  <liv>Notion</liv>
+  <liv>Telegram</li>
+  <li>Discord</li>
+  <li>Slack</li>
+  <li>Zoom</li>
+  <li>Sublime Text</li>
+  <li>VSCode</li>
+  <li>Hackintool</li>
+  <li>Git</li>
+  <li>Android Studio</li>
+  <li>Anydesk</li>
+  <li>Balena Etcher</li>
+  <li>BlackHole-2ch</li>
+  <li>OBS</li>
+  <li>Steam</li>
+  <li>QBittorrent</li>
+  <li>Reaper</li>
+  <li>Google Drive</li>
+  <li>Stats</li>
+  <li>VLC</li>
+  <li>Spotify</li>
+  <li>Rectangle</li>
+  <li>Geekbench</li>
+  <li>Android File Transfer</li>
+  <li>Notion</li>
 </ul>  
 
 
