@@ -62,6 +62,7 @@ flatpak install flathub com.anydesk.Anydesk -y
 ## Customizing UBUNTU ##
 sudo apt-get install chrome-gnome-shell -y
 sudo apt install gnome-shell-extensions -y
+sudo apt install menulibre
 #gnome-extensions disable ubuntu-dock@ubuntu.com
 
 
