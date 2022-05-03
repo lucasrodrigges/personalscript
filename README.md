@@ -26,12 +26,16 @@ This script, in addition to updating the system, will install flatpak support. I
 
 Just use this at terminal:
 ```
-cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/linux-script.sh && sudo chmod +x linux-script.sh && sudo ./linux-script.sh
+cd Downloads && 
+wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/linux-script.sh && 
+sudo chmod +x linux-script.sh && sudo ./linux-script.sh
 
 ```
 ### Changing appearence:
 ```
-cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/appearence.sh && sudo chmod +x appearence.sh && sudo ./appearence.sh
+cd Downloads && 
+wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/appearence.sh && 
+sudo chmod +x appearence.sh && sudo ./appearence.sh
 
 ```
 ## Mac (macOS 10.15+)
