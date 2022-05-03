@@ -7,7 +7,7 @@ These scripts will install my day-to-day applications. If you got here, check th
 
 This script, in addition to updating the system, will install flatpak support. In the end, it will modify the Ubuntu appearance (if you're using it) and add `gnome-shell-extension`.
 
-<ul style="list-style-type:disc;">
+<ul>
   <li>Google Chrome</li>
   <li>Phyton</li>
   <li>QJack</li>
@@ -40,7 +40,7 @@ cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personal-scri
 ## Mac (macOS 10.15+)
 This script will install brew to get applications, modify security permissions and enable key repeat (like Windows).
 
-<ul style="list-style-type:disc;">
+<ul>
   <li>Google Chrome</li>
   <li>Firefox</li>
   <li>Whatsapp</li>
