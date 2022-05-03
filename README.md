@@ -7,20 +7,20 @@ These scripts will install my day-to-day applications. If you got here, check th
 
 This script, in addition to updating the system, will install flatpak support. In the end, it will modify the Ubuntu appearance (if you're using it) and add `gnome-shell-extension`.
 
-| From Flatpak | External Apps       | Apt Apps  |
-|------------- | ------------        | --------- |
-Spotify        | Google Chrome       | Flameshot |
-Discord        | Node.js  (via nvm)  | Git       |
-VLC            | npm                 | QJack     |
-Telegram       | Lutris              | VSCode    |
-Zoom           |                     |           |
-Slack
-Sublime
-GitHub Desktop
-OBS
-Anydesk
-
-
+<ul style="list-style-type:disc;">
+  <li>Google Chrome</li>
+  <li>Phyton</li>
+  <liv>QJack</liv>
+  <liv>VSCode</liv>
+  <liv>FLameshot</liv>
+  <liv>Sublime Text</liv>
+  <liv>VLC</liv>
+  <liv>Discord</liv>
+  <liv>OBS</liv>
+  <liv>Github Desktop</liv>
+  <liv>Anydesk</liv>
+  <liv>GTKStressTesting</liv>
+</ul>
 
 ### Install Instructions
 
@@ -40,34 +40,44 @@ cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personal-scri
 ## Mac (macOS 10.15+)
 This script will install brew to get applications, modify security permissions and enable key repeat (like Windows).
 
-| From Brew    | External Apps       | 
-|------------- | ------------------- |
-Google Chrome  | Node.js (from nvm ) |     
-Spotify        | npm                 |
-Whatsapp
-Telegram
-Telegram
-Zoom
-Discord
-Slack
-Gimp
-Reaper
-Sublime
-VSCode
-GitHub Desktop
-Hackintool
-Anydesk
-Steam
-OBS
-Git
-BlackHole 2ch
-FlameShot
-Balena Etcher
-QBittorrent
-Stats
-Rectangle
-Geekbench
-Cross Over
+<ul style="list-style-type:disc;">
+  <li>Google Chrome</li>
+  <li>Firefox</li>
+  <li>Whatsapp</li>
+  <liv>Telegram</liv>
+  <liv>Discord</liv>
+  <liv>Slack</liv>
+  <liv>Zoom</liv>
+  <liv>Sublime Text</liv>
+  <liv>VSCode</liv>
+  <liv>Hackintool</liv>
+  <liv>Git</liv>
+  <liv>Android Studio</liv>
+  <liv>Anydesk</liv>
+  <liv>Balena Etcher</liv>
+  <liv>BlackHole-2ch</liv>
+  <liv>OBS</liv>
+  <liv>Steam</liv>
+  <liv>QBittorrent</liv>
+  <liv>Reaper</liv>
+  <liv>Google Drive</liv>
+  <liv>Stats</liv>
+  <liv>VLC</liv>
+  <liv>Spotify</liv>
+  <liv>Rectangle</liv>
+  <liv>Geekbench</liv>
+  <liv>Android File Transfer</liv>
+  <liv>Notion</liv>
+</ul>  
+
+
+
+
+
+
+
+
+
 
 ### Install Instructions
 

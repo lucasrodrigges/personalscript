@@ -24,12 +24,10 @@ brew install --cask steam
 brew install --cask qbittorrent
 brew install --cask reaper
 brew install --cask google-drive
-brew install --cask hackintool
 brew install --cask stats
 brew install --cask vlc
 brew install --cask spotify
 brew install --cask rectangle
 brew install --cask geekbench
-brew install --cask crossover
 brew install --cask android-file-transfer
 brew install --cask notion

@@ -52,10 +52,9 @@ sudo apt install gnome-software-plugin-flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
 
 ## Apps Flatpak ##
-flatpak install flathub com.spotify.Client -y
 flatpak install flathub org.videolan.VLC -y
 flatpak install flathub com.discordapp.Discord -y
-#flatpak install flathub org.telegram.desktop -y
+flatpak install flathub io.github.shiftey.Desktop
 flatpak install flathub com.obsproject.Studio -y
 flatpak install flathub com.leinardi.gst -y
 flatpak install flathub com.anydesk.Anydesk -y
