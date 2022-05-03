@@ -31,7 +31,7 @@ wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/linux-scr
 sudo chmod +x linux-script.sh && sudo ./linux-script.sh
 
 ```
-### Changing appearence:
+### Changing appearance:
 ```
 cd Downloads && 
 wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/appearence.sh && 
