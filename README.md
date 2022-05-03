@@ -24,18 +24,13 @@ This script, in addition to updating the system, will install flatpak support. I
 
 ### Install Instructions
 
-At first, install git:
+Just use this at terminal:
 ```
-sudo apt install git -y
-```
-
-Use this:
-```
-cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personal-script/main/linux-script.sh && sudo chmod +x linux-script.sh && sudo ./linux-script.sh
+cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/linux-script.sh && sudo chmod +x linux-script.sh && sudo ./linux-script.sh
 ```
 ### Changing appearence:
 ```
-cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personal-script/main/appearence.sh && sudo chmod +x appearence.sh && sudo ./appearence.sh
+cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/appearence.sh && sudo chmod +x appearence.sh && sudo ./appearence.sh
 ```
 ## Mac (macOS 10.15+)
 This script will install brew to get applications, modify security permissions and enable key repeat (like Windows).
@@ -96,6 +91,6 @@ sudo spctl --master-disable
 ```
 Now donwload the `script.sh` and run it using:
 ```
-cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personal-script/main/mac-script.sh && chmod +x mac-script.sh && ./mac-script.sh
+cd Downloads && wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/mac-script.sh && chmod +x mac-script.sh && ./mac-script.sh
 ```
 

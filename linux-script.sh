@@ -5,10 +5,10 @@ sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/cache/apt/archives/lock
 
 ## Updating System ##
-sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
-## Uptading reps ##
-sudo apt update 
+## Installing Git ##
+sudo apt install git -y
 
 ## Installing TpLink T2U Nano Driver for Ubuntu"
 git clone -b v5.6.4.2 https://github.com/aircrack-ng/rtl8812au.git
