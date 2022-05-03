@@ -44,7 +44,7 @@ This script will install brew to get applications, modify security permissions a
   <li>Google Chrome</li>
   <li>Firefox</li>
   <li>Whatsapp</li>
-  <liv>Telegram</li>
+  <li>Telegram</li>
   <li>Discord</li>
   <li>Slack</li>
   <li>Zoom</li>
