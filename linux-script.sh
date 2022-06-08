@@ -8,7 +8,6 @@ sudo rm /var/cache/apt/archives/lock
 sudo apt-get update
 sudo apt-get install python3 python3-venv python3-pip
 
-
 ## Google Chrome ##
 mkdir /home/$USER/Downloads/Programas
 cd /home/$USER/Downloads/Programas 
@@ -50,7 +49,6 @@ flatpak install flathub com.anydesk.Anydesk -y
 sudo apt-get install chrome-gnome-shell -y
 sudo apt install gnome-shell-extensions -y
 sudo apt install menulibre -y
-#gnome-extensions disable ubuntu-dock@ubuntu.com
 
 
-echo "All done! Reboot your system"
+echo "All done! Reboot your system."
