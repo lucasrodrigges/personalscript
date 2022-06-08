@@ -22,21 +22,24 @@ This script, in addition to updating the system, will install flatpak support. I
   <li>GTKStressTesting</li>
 </ul>
 
-### Install Instructions
+### Installing ethernet drivers
 
 ```
 cd Downloads && 
-wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/linux-script.sh && 
+wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/internet-drivers.sh && 
+sudo chmod +x internet-drivers.sh && sudo ./internet-drivers.sh
+
+```
+
+### Installig softwares
+
+```
+cd Downloads && 
+wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/linux-script.sh && 
 sudo chmod +x linux-script.sh && sudo ./linux-script.sh
 
-```
-### Changing appearance:
-```
-cd Downloads && 
-wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/appearence.sh && 
-sudo chmod +x appearence.sh && sudo ./appearence.sh
+``` 
 
-```
 ## Mac (macOS 10.15+)
 This script will install brew to get applications, modify security permissions and enable key repeat (like Windows).
 
@@ -88,7 +91,7 @@ sudo spctl --master-disable
 Now donwload the `script.sh` and run it using:
 ```
 cd Downloads && 
-wget -c https://raw.githubusercontent.com/luucas-r/personalscript/main/mac-script.sh && 
+wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/mac-script.sh && 
 chmod +x mac-script.sh && ./mac-script.sh
 
 ```
