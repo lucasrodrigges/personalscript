@@ -14,4 +14,3 @@ sudo apt-get update
 sudo apt-get install build-essential libelf-dev linux-headers-`uname -r` -y
 sudo apt-get install dkms -y
 sudo make dkms_install
-reboot
