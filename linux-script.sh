@@ -33,12 +33,12 @@ sudo apt-get update -y
 sudo apt-get install sublime-text -y
 
 ## Repository Softwares ##
-sudo apt install flatpak -y
-sudo add-apt-repository ppa:flatpak/stable -y
-sudo apt update -y
-sudo apt install flatpak -y
-sudo apt install gnome-software-plugin-flatpak -y 
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
+# sudo apt install flatpak -y
+# sudo add-apt-repository ppa:flatpak/stable -y
+# sudo apt update -y
+# sudo apt install flatpak -y
+# sudo apt install gnome-software-plugin-flatpak -y 
+# flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
 
 ## Apps Flatpak ##
 flatpak install flathub org.videolan.VLC -y
