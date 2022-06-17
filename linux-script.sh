@@ -14,8 +14,11 @@ cd /home/$USER/Downloads/Programas
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 sudo dpkg -i *.deb
 
+## Installing Slack (.deb)
+wget -c https://downloads.slack-edge.com/releases/linux/4.26.1/prod/x64/slack-desktop-4.26.1-amd64.deb && sudo dpkg -i *deb
+
 ## Installing VSCode ##
-#sudo apt install code
+wget -c https://az764295.vo.msecnd.net/stable/30d9c6cd9483b2cc586687151bcbcd635f373630/code_1.68.1-1655263094_amd64.deb && sudo dpkg -i *deb
 
 #Installing Jack ##
 sudo apt install qjackctl -y
