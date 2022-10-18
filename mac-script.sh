@@ -37,9 +37,9 @@ brew install --cask reaper
 brew install --cask google-drive
 brew install --cask qbittorrent
 brew install --cask notion
-# brew install --cask anydesk
-# brew install --cask balenaetcher
-# brew install --cask flameshot
+brew install --cask anydesk
+brew install --cask balenaetcher
+brew install --cask flameshot
 # brew install --cask steam
 # brew install --cask vlc
 # brew install --cask spotify
