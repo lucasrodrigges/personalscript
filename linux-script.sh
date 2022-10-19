@@ -30,6 +30,7 @@ sudo apt install qjackctl -y
 ## Apt Apps ##
 sudo apt install flameshot -y
 sudo apt install kcolorchooser -y
+sudo apt install plank -y
 # wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 # sudo apt-get install apt-transport-https -y
 # echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
