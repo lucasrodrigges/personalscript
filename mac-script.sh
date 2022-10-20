@@ -16,7 +16,7 @@ brew install --cask mysqlworkbench
 brew install --cask dbeaver-community
 brew install --cask visual-studio-code
 brew install --cask android-studio
-# brew install --cask sublime-text
+brew install --cask sublime-text
 
 brew install --cask stats
 brew install --cask rectangle
@@ -40,7 +40,7 @@ brew install --cask notion
 brew install --cask anydesk
 brew install --cask balenaetcher
 brew install --cask flameshot
+brew install --cask spotify
 # brew install --cask steam
 # brew install --cask vlc
-# brew install --cask spotify
 # brew install --cask geekbench
