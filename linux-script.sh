@@ -4,14 +4,10 @@
 sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/cache/apt/archives/lock
 
-## Python ##
-sudo apt-get update
-#sudo apt-get install python3 python3-venv python3-pip
-
 ## Google Chrome ##
-#mkdir /home/$USER/Downloads/Programas
-#cd /home/$USER/Downloads/Programas 
-#wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+mkdir /home/$USER/Downloads/Programas
+cd /home/$USER/Downloads/Programas 
+wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 
 ## Installing Slack (.deb)
 #sudo apt install slack
