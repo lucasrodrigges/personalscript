@@ -41,6 +41,8 @@ brew install --cask anydesk
 brew install --cask balenaetcher
 brew install --cask flameshot
 brew install --cask spotify
+brew install gimp
+brew install musescore
 # brew install --cask steam
 # brew install --cask vlc
 # brew install --cask geekbench
