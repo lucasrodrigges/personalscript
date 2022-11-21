@@ -11,9 +11,9 @@ bew install curl
 brew install git
 brew install docker
 brew install docker-compose
-brew install mysql
+# brew install mysql
 brew install --cask mysqlworkbench
-brew install --cask dbeaver-community
+# brew install --cask dbeaver-community
 brew install --cask visual-studio-code
 brew install --cask android-studio
 brew install --cask sublime-text
