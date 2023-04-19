@@ -16,6 +16,7 @@ brew install --cask mysqlworkbench
 brew install --cask visual-studio-code
 brew install --cask android-studio
 brew install --cask sublime-text
+brew install --cask postman
 
 brew install --cask stats
 brew install --cask rectangle
