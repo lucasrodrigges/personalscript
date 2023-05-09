@@ -30,16 +30,16 @@ fi
 SOFTWARES=(
   "Google Chrome" "" OFF \
   "Flameshot" "" OFF \
-  "Kcolo Chooser" "" OFF \
+  "Kcolorchooser" "" OFF \
 )
 
 CHOICES=$(dialog --stdout --checklist 'Selecione os softwares que você deseja instalar:' 0 0 0 "${SOFTWARES[@]}")
 
 for CHOICE in $CHOICES; do
     case $CHOICE in
-        "Google Chrome") echo "Instalando o Google Chrome" && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo apt install -y ./google-chrome-stable_current_amd64.deb ;;
-        "KcoloChooser") echo "Instalando o Kcolo Chooser" && flatpak install flathub com.github.Ksmdr.kcolochooser ;;
-        "Flameshot") sudo apt install -y flameshot ;;
+        "Google Chrome") echo "Instalando o Google Chrome" && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i ./google-chrome-stable_current_amd64.deb -y ;;
+        "Kcolorchooser") echo "Instalando o Kcolorchooser" && sudo apt install kcolorchooser -y ;;
+        "Flameshot") echo "Instalando o Flameshot" && sudo apt install flameshot -y ;;
     esac
 done
 
