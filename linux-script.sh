@@ -37,7 +37,7 @@ CHOICES=$(dialog --stdout --checklist 'Selecione os softwares que você deseja i
 
 for CHOICE in $CHOICES; do
     case $CHOICE in
-        "Google Chrome") echo "Instalando o Google Chrome" && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i ./google-chrome-stable_current_amd64.deb -y ;;
+        "Google Chrome") echo "Instalando o Google Chrome" && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i ./google-chrome*.deb -y ;;
         "Kcolorchooser") echo "Instalando o Kcolorchooser" && sudo apt install kcolorchooser -y ;;
         "Flameshot") echo "Instalando o Flameshot" && sudo apt install flameshot -y ;;
     esac
