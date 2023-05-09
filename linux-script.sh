@@ -14,7 +14,9 @@ sudo rm -f /var/cache/apt/archives/lock
 sudo apt-get update
 sudo apt-get install dialog curl wget -y
 
-if ! grep -q "flathub" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+if which flatpak >/dev/null; then
+    echo "O Flatpak foi instalado corretamente."
+else
     if dialog --yesno '
         O repositório flatpak não está instalado. Você deseja instalar agora?
         Não instalá-lo pode causar problemas na instalação de alguns softwares.
@@ -25,6 +27,7 @@ if ! grep -q "flathub" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
         sudo apt update
     fi
 fi
+
 
 SOFTWARES=(
   "Google Chrome" "" OFF \
