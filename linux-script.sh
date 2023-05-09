@@ -1,62 +1,53 @@
+# Captura o sinal da tecla "Esc" e interrompe o script
+trap 'echo "Script interrompido pelo usuário." && exit 1' INT TERM EXIT
+
+# Exibe uma mensagem informando sobre a opção de interromper o script
+echo "Pressione a tecla 'Esc' a qualquer momento para cancelar o script."
+
 #!/usr/bin/env bash
 
-## Removing occasional crashes from apt ##
-sudo rm /var/lib/dpkg/lock-frontend
-sudo rm /var/cache/apt/archives/lock
+# Set user variable
+USER_NAME="$USER"
 
-## Google Chrome ##
-mkdir /home/$USER/Downloads/Programas
-cd /home/$USER/Downloads/Programas 
-wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+# Exit immediately if a command exits with a non-zero status
+set -e
 
-## Installing Slack (.deb)
-#sudo apt install slack
+# Remove occasional crashes from apt
+sudo rm -f /var/lib/dpkg/lock-frontend
+sudo rm -f /var/cache/apt/archives/lock
 
-## Installing Zoom
-#wget -c https://cdn.zoom.us/prod/5.12.2.4816/zoom_amd64.deb
+# Add Google Chrome repository key
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 
-## Installing VSCode ##
-#wget -c https://az764295.vo.msecnd.net/stable/d045a5eda657f4d7b676dedbfa7aab8207f8a075/code_1.72.2-1665614327_amd64.deb
+# Add Google Chrome repository to system
+echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 
-#sudo dpkg -i *deb
+# Update apt package list
+sudo apt update
 
-#Installing Jack ##
-#sudo apt install qjackctl -y
+# Install Google Chrome
+sudo apt install -y google-chrome-stable
 
-## Apt Apps ##
-sudo apt install flameshot -y
-sudo apt install kcolorchooser -y
-sudo apt install plank -y
-# wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-# sudo apt-get install apt-transport-https -y
-# echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-# sudo apt-get update -y
-# sudo apt-get install sublime-text -y
+# Install Jack
+sudo apt install -y qjackctl
 
-## Repository Softwares ##
-sudo apt install flatpak -y
-sudo add-apt-repository ppa:flatpak/stable -y
-sudo apt update -y
-sudo apt install flatpak -y
-sudo apt install gnome-software-plugin-flatpak -y 
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
+# Install apt applications
+sudo apt install -y flameshot kcolorchooser
 
-## Apps Flatpak ##
-flatpak install flathub com.visualstudio.code
-flatpak install flathub us.zoom.Zoom
+# Install Flatpak (if not installed)
+if ! command -v flatpak &> /dev/null; then
+    sudo apt install -y flatpak
+fi
 
-flatpak install flathub org.videolan.VLC -y
-flatpak install flathub com.discordapp.Discord -y
-flatpak install flathub com.slack.Slack
-# flatpak install flathub io.github.shiftey.Desktop
-flatpak install flathub com.obsproject.Studio -y
-flatpak install flathub com.leinardi.gst -y
-flatpak install flathub com.anydesk.Anydesk -y
+# Add Flatpak repository and update package list
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt update
 
-## Customizing UBUNTU ##
-sudo apt-get install chrome-gnome-shell -y
-sudo apt install gnome-shell-extensions -y
-# sudo apt install menulibre -y
+# Install Flatpak applications
+flatpak install -y flathub com.visualstudio.code com.getpostman.Postman rest.insomnia.Insomnia io.dbeaver.DBeaverCommunity us.zoom.Zoom com.discordapp.Discord com.slack.Slack io.github.shiftey.Desktop com.obsproject.Studio com.leinardi.gst org.videolan.VLC
 
+# Install Chrome Gnome Shell and Gnome Shell Extensions
+sudo apt install -y chrome-gnome-shell gnome-shell-extensions
 
-echo "All done! Reboot your system."
+# Prompt user to reboot system
+echo "All done! Please reboot your system to apply changes."
