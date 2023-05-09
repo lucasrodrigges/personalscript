@@ -21,8 +21,7 @@ sudo apt-get update
 sudo apt-get install -y dialog
 
 # Defina a lista de softwares
-SOFTWARES="Flameshot off
-Kcolo Chooser off"
+SOFTWARES="Flameshot off Kcolo Chooser off"
 
 # Crie uma caixa de diálogo com os programas para o usuário escolher
 CHOICES=$(dialog --stdout --checklist 'Selecione os softwares que você deseja instalar:' 0 0 0 $SOFTWARES)
