@@ -14,9 +14,7 @@ sudo rm -f /var/cache/apt/archives/lock
 sudo apt-get update
 sudo apt-get install dialog curl wget -y
 
-if which flatpak >/dev/null; then
-    echo "O Flatpak foi instalado corretamente."
-else
+if ! which flatpak >/dev/null; then
     if dialog --yesno '
         O repositório flatpak não está instalado. Você deseja instalar agora?
         Não instalá-lo pode causar problemas na instalação de alguns softwares.
