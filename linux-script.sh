@@ -21,17 +21,22 @@ sudo apt-get update
 sudo apt-get install -y dialog
 
 # Defina a lista de softwares
-SOFTWARES="Flameshot off Kcolo Chooser off"
+SOFTWARES=(
+  "Google Chrome" "" OFF \
+  "Flameshot" "" OFF \
+  "Kcolo Chooser" "" OFF \
+)
 
 # Crie uma caixa de diálogo com os programas para o usuário escolher
-CHOICES=$(dialog --stdout --checklist 'Selecione os softwares que você deseja instalar:' 0 0 0 $SOFTWARES)
+CHOICES=$(dialog --stdout --checklist 'Selecione os softwares que você deseja instalar:' 0 0 0 "${SOFTWARES[@]}")
+
 
 # Instale os softwares selecionados
 for CHOICE in $CHOICES; do
     case $CHOICE in
-        # "Google Chrome") wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add - && echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list && sudo apt update && sudo apt install -y google-chrome-stable ;;
-        "Kcolo Chooser") sudo apt install -y kcolorchooser ;;
+        "KcoloChooser") sudo apt install -y kcolorchooser ;;
         "Flameshot") sudo apt install -y flameshot ;;
+        "curl") sudo apt install -y curl ;;
     esac
 done
 
@@ -39,4 +44,3 @@ done
 if dialog --yesno 'A instalação foi concluída. Você deseja reiniciar o sistema agora?' 0 0; then
     sudo reboot
 fi
-```
