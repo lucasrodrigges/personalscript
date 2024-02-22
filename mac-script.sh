@@ -2,9 +2,6 @@
 ## Enabling Key Repeat ##
 defaults write -g ApplePressAndHoldEnabled -bool false
 
-## Installing brew ##
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 ## Brew Apps ##
 brew install zsh
 bew install curl
