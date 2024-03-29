@@ -1,0 +1,43 @@
+# system
+alias update='sudo apt update && sudo apt upgrade -y'
+
+# git
+alias gclone='git clone'
+alias gcommit='git add . && git commit -m'
+alias gdev='git checkout dev'contatosSemTantra
+alias gpush='git push origin'
+alias gstash='git stash'
+alias gpull='git pull origin'
+alias gstatus='git status'
+alias gbranch='git branch'
+alias gcheck='git checkout'
+alias gcheckb='git checkout -b'
+alias gmerge='git merge'
+
+# asdf
+alias nodei='asdf install nodejs'
+alias nodel='asdf local nodejs'
+alias nodeil='asdf install $(cat .tool-versions)'
+
+# npm
+alias ni='npm install'
+alias ns='npm start'
+alias nt='npm test'
+alias nb='npm run build'
+alias nd='npm run dev'
+alias nid='npm install && npm run dev'
+
+# docker
+alias dcu='docker-compose up'
+alias dcub='docker-compose up --build'
+
+# projects
+# benvo
+alias bvfml='code ~/Documents/Benvo/benvo-family'
+alias bvops='code ~/Documents/Benvo/benvo-ops'
+alias afront='code ~/Documents/Benvo/afarma-frontend'
+alias aback='code ~/Documents/Benvo/afarma-api'
+# bfdb
+alias bfdbtutor='code ~/Documents/BFDB/bfdb-tutor'
+alias bfdbops='code ~/Documents/BFDB/bfdb-tutor'
+alias bfdbnot='code ~/Documents/BFDB/bfdb-notifications'
