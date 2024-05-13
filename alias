@@ -1,18 +1,19 @@
+
 # system
 alias update='sudo apt update && sudo apt upgrade -y'
 
 # git
-alias gclone='git clone'
-alias gcommit='git add . && git commit -m'
-alias gdev='git checkout dev'contatosSemTantra
-alias gpush='git push origin'
-alias gstash='git stash'
-alias gpull='git pull origin'
-alias gstatus='git status'
-alias gbranch='git branch'
-alias gcheck='git checkout'
-alias gcheckb='git checkout -b'
-alias gmerge='git merge'
+alias clone='git clone'
+alias commit='git add . && git commit -m'
+alias dev='git checkout dev'
+alias push='git push origin'
+alias stash='git stash'
+alias pull='git pull origin'
+alias status='git status'
+alias branch='git branch'
+alias check='git checkout'
+alias checkb='git checkout -b'
+alias merge='git checkout main && git merge dev && git push origin main && git checkout dev'
 
 # asdf
 alias nodei='asdf install nodejs'
@@ -39,5 +40,7 @@ alias afront='code ~/Documents/Benvo/afarma-frontend'
 alias aback='code ~/Documents/Benvo/afarma-api'
 # bfdb
 alias bfdbtutor='code ~/Documents/BFDB/bfdb-tutor'
-alias bfdbops='code ~/Documents/BFDB/bfdb-tutor'
+alias bfdbops='code ~/Documents/BFDB/bfdb-ops'
 alias bfdbnot='code ~/Documents/BFDB/bfdb-notifications'
+alias bfdblp='code ~/Documents/BFDB/bfdb-lp'
+alias bfdbcron='code ~/Documents/BFDB/bfdb-cron'
