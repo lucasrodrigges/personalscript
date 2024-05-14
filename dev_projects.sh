@@ -1,7 +1,3 @@
-#!/bin/bash
-sudo rm -f /var/lib/dpkg/lock-frontend
-sudo rm -f /var/cache/apt/archives/lock
-
 cd ~/Documents/Benvo
 git clone git@github.com:senioramais/benvo-ops.git
 git clone git@github.com:senioramais/benvo-family.git
