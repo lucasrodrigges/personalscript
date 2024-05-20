@@ -1,3 +1,5 @@
+mkdir ~/Documents/Benvo && mkdir ~/Documents/BFDB &&
+
 cd ~/Documents/Benvo &&
 git clone git@github.com:senioramais/benvo-ops.git
 git clone git@github.com:senioramais/benvo-family.git
