@@ -74,5 +74,10 @@ alias bfdbcron='code ~/Documents/BFDB/bfdb-cron'
 echo "$ALIASES" >> ~/.zshrc
 
 # install development softwares
-yay -S dbeaver visual-studio-code-bin google-chrome docker docker-compose vlc discord --noconfirm
 sudo pacman -Sy gnome-browser-connector
+yay -S dbeaver --noconfirm
+yay -S visual-studio-code-bin --noconfirm
+yay -S google-chrome --noconfirm
+yay -S docker docker-compose --noconfirm
+yay -S vlc --noconfirm
+yay -S discord --noconfirm
