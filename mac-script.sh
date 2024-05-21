@@ -7,13 +7,16 @@ brew install zsh
 bew install curl
 brew install git
 # brew install mysql
-brew install --cask dbeaver-community
-# brew install --cask mysqlworkbench
 brew install --cask visual-studio-code
+brew install --cask dbeaver-community
+# brew install --cask datagrip
+# brew install --cask mysqlworkbench
 # brew install --cask android-studio
 # brew install --cask sublime-text
 brew install --cask postman
 brew install --cask insomnia
+brew install --cask gather
+brew install --cask clickup
 
 brew install --cask stats
 brew install --cask rectangle
