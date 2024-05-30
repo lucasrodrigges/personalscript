@@ -18,10 +18,7 @@ echo "$PLUGINS" >> ~/.zshrc
 # add aliases
 ALIASES="
 
-alias update='sudo pacman -Syyu --noconfirm &&
-sudo pacman -S yay --noconfirm &&
-sudo pacman -S git --noconfirm &&
-sudo pacman -S curl --noconfirm'
+alias update='sudo pacman -Syyu --noconfirm && sudo yay -Syyu --noconfirm'
 
 # git
 alias clone='git clone'
