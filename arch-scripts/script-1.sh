@@ -14,7 +14,6 @@ sudo pacman -S curl --noconfirm
 sudo pacman -S wget --noconfirm
 sudo pacman -S neofetch --noconfirm
 sudo pacman -S htop --noconfirm
-sudo pacman -S timeshift --noconfirm
 sudo pacman -S zsh --noconfirm
 sudo pacman -S dbeaver --noconfirm
 sudo pacman -S pipewire-jack pipewire-alsa pipewire-pulse qjackctl --noconfirm
@@ -40,6 +39,7 @@ yay -S ardour --noconfirm
 yay -S postman --noconfirm
 
 flatpak install flathub com.leinardi.gst -y
+flatpak install flathub org.gnome.DejaDup -y
 
 sudo chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
