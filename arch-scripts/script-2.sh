@@ -70,4 +70,11 @@ alias bfdbcron='code ~/Documents/BFDB/bfdb-cron'
 "
 echo "$ALIASES" >> ~/.zshrc
 
+ssh-keygen -t ed25519 -C "rodriggeslucas@gmail.com"
+
+echo "THIS IS YOUR SSH PUBLIC KEY" && cat ~/.ssh/id_ed25519.pub
+
+git config --global user.name "lucasrodrigges"
+git config --global user.email "rodriggeslucas@gmail.com"
+
 exec zsh
