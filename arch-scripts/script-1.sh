@@ -4,26 +4,42 @@ trap 'echo "Script interrompido pelo usuário." && exit 1' INT TERM EXIT
 
 echo "Pressione a tecla 'Esc' a qualquer momento para cancelar o script."
 
-USER_NAME="$USER"
-
 set -e
 
-# sudo rm -f /var/lib/dpkg/lock-frontend
-# sudo rm -f /var/cache/apt/archives/lock
+sudo pacman -Syu
 
-sudo pacman -Syyu --noconfirm
-sudo pacman -S yay --noconfirm
+sudo pacman -S firefox --noconfirm
 sudo pacman -S git --noconfirm
 sudo pacman -S curl --noconfirm
+sudo pacman -S wget --noconfirm
+sudo pacman -S neofetch --noconfirm
+sudo pacman -S htop --noconfirm
+sudo pacman -S timeshift --noconfirm
+sudo pacman -S zsh --noconfirm
+sudo pacman -S dbeaver --noconfirm
+sudo pacman -S pipewire-jack pipewire-alsa pipewire-pulse qjackctl --noconfirm
+sudo pacman -Sy gnome-browser-connector --noconfirm
+sudo pacman -S man --noconfirm
+sudo pacman -S dmidecode --noconfirm
 
-# basic softwares
-sudo pacman -S zsh git neofetch curl --noconfirm
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+cd ..
+sudo rm -rf yay/
 
-# configure zsh
-# ZSH as default
+yay -Syu --noconfirm
+
+yay -S google-chrome --noconfirm
+yay -S visual-studio-code-bin --noconfirm
+yay -S docker docker-composer --noconfirm
+yay -S vlc --noconfirm
+yay -S discord --noconfirm
+yay -S ardour --noconfirm
+yay -S postman --noconfirm
+
+flatpak install flathub com.leinardi.gst -y
+
 sudo chsh -s $(which zsh)
-
-# Installing Oh My ZSH
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-reboot
