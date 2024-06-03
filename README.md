@@ -1,7 +1,5 @@
 # Personal Script for Mac and Linux
 
-These scripts will install my day-to-day applications. If you got here, check the `script.sh` related to your OS and motify it according your usage.
-
 ## Linux (Arch-Based)
 
 ### Installig softwares
