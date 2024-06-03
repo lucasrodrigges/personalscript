@@ -22,6 +22,7 @@ sudo pacman -S man --noconfirm
 sudo pacman -S dmidecode --noconfirm
 sudo pacman -S obs-studio --noconfirm
 sudo pacman -S gnome-boxes --noconfirm 
+sudo pacman -S qbittorrent --noconfirm 
 
 
 sudo pacman -S --needed git base-devel
