@@ -12,13 +12,14 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
 "
 echo "$PLUGINS" >> ~/.zshrc
 
 # add aliases
 ALIASES="
 
-alias update='sudo pacman -Syyu --noconfirm && sudo yay -Syyu --noconfirm'
+alias update='sudo pacman -Syu --noconfirm && yay -Syu --noconfirm'
 
 # git
 alias clone='git clone'
@@ -36,7 +37,6 @@ alias merge='git checkout main && git merge dev && git push origin main && git c
 # asdf
 alias nodei='asdf install nodejs'
 alias nodel='asdf local nodejs'
-alias nodeil='asdf install $(cat .tool-versions)'
 
 # npm
 alias ni='npm install'
@@ -70,11 +70,4 @@ alias bfdbcron='code ~/Documents/BFDB/bfdb-cron'
 "
 echo "$ALIASES" >> ~/.zshrc
 
-# install development softwares
-sudo pacman -Sy gnome-browser-connector
-yay -S dbeaver --noconfirm
-yay -S visual-studio-code-bin --noconfirm
-yay -S google-chrome --noconfirm
-yay -S docker docker-compose --noconfirm
-yay -S vlc --noconfirm
-yay -S discord --noconfirm
+exec zsh
