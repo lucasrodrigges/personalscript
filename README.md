@@ -2,43 +2,25 @@
 
 These scripts will install my day-to-day applications. If you got here, check the `script.sh` related to your OS and motify it according your usage.
 
-
-## Linux (Ubuntu-Based)
-
-This script, in addition to updating the system, will install flatpak support. In the end, it will modify the Ubuntu appearance (if you're using it) and add `gnome-shell-extension`.
-
-<ul>
-  <li>Google Chrome</li>
-  <li>Phyton</li>
-  <li>QJack</li>
-  <li>VSCode</li>
-  <li>FLameshot</li>
-  <li>Sublime Text</li>
-  <li>VLC</li>
-  <li>Discord</li>
-  <li>OBS</li>
-  <li>Github Desktop</li>
-  <li>Anydesk</li>
-  <li>GTKStressTesting</li>
-</ul>
-
-### Installing ethernet drivers
-
-```
-cd Downloads && 
-wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/internet-drivers.sh && 
-sudo chmod +x internet-drivers.sh && sudo ./internet-drivers.sh
-
-```
+## Linux (Arch-Based)
 
 ### Installig softwares
 
 ```
 cd Downloads && 
-wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/linux-script.sh && 
-sudo chmod +x linux-script.sh && sudo ./linux-script.sh
+wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/arch-scripts/script-1.sh
+wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/arch-scripts/script-2.sh
+sudo chmod +x script-1.sh && sudo ./script-1.sh
 
 ``` 
+
+Reboot, then:
+
+``` 
+sudo chmod +x script-2.sh && sudo ./script-2.sh
+
+``` 
+
 
 ## Mac (macOS 10.15+)
 This script will install brew to get applications, modify security permissions and enable key repeat (like Windows).
