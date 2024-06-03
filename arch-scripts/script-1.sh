@@ -21,6 +21,8 @@ sudo pacman -Sy gnome-browser-connector --noconfirm
 sudo pacman -S man --noconfirm
 sudo pacman -S dmidecode --noconfirm
 sudo pacman -S obs-studio --noconfirm
+sudo pacman -S gnome-boxes --noconfirm 
+
 
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay-bin.git
