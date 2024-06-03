@@ -20,7 +20,7 @@ sudo chmod +x script-2.sh && sudo ./script-2.sh
 ``` 
 
 
-## Mac (macOS 10.15+)
+## Mac (10.15+ - intel processors)
 This script will install brew to get applications, modify security permissions and enable key repeat (like Windows).
 
 ### Install Instructions
