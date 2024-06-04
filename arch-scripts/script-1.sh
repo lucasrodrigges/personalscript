@@ -9,12 +9,12 @@ set -e
 sudo pacman -Syu
 
 # sudo pacman -S firefox --noconfirm
-# sudo pacman -S git --noconfirm
-# sudo pacman -S curl --noconfirm
+sudo pacman -S git --noconfirm
+sudo pacman -S curl --noconfirm
 # sudo pacman -S wget --noconfirm
 # sudo pacman -S neofetch --noconfirm
 # sudo pacman -S htop --noconfirm
-# sudo pacman -S zsh --noconfirm
+sudo pacman -S zsh --noconfirm
 # sudo pacman -S dbeaver --noconfirm
 # sudo pacman -S pipewire-jack pipewire-alsa pipewire-pulse qjackctl --noconfirm
 # sudo pacman -Sy gnome-browser-connector --noconfirm
