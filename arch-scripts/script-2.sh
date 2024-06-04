@@ -1,4 +1,3 @@
-
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
@@ -77,4 +76,5 @@ echo "THIS IS YOUR SSH PUBLIC KEY" && cat ~/.ssh/id_ed25519.pub
 git config --global user.name "lucasrodrigges"
 git config --global user.email "rodriggeslucas@gmail.com"
 
-exec zsh
+exec zsh && echo "Script finished"
+
