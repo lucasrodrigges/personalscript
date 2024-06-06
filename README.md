@@ -7,7 +7,7 @@
 ```
 cd Downloads && 
 wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/install.sh
-sudo chmod +x install.sh && ./script-1.sh
+sudo chmod +x install.sh && ./install.sh
 
 ``` 
 
