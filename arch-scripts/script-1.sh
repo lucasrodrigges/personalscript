@@ -23,7 +23,11 @@ sudo pacman -S dmidecode --noconfirm
 sudo pacman -S obs-studio --noconfirm
 sudo pacman -S gnome-boxes --noconfirm 
 sudo pacman -S qbittorrent --noconfirm 
-
+sudo pacman -S docker docker-composer --noconfirm
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
 
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay-bin.git
@@ -36,11 +40,13 @@ yay -Syu --noconfirm
 
 yay -S google-chrome --noconfirm
 yay -S visual-studio-code-bin --noconfirm
-yay -S docker docker-composer --noconfirm
 yay -S vlc --noconfirm
 yay -S discord --noconfirm
 yay -S ardour --noconfirm
 yay -S postman --noconfirm
+yay -S spotify --noconfirm
+yay -S spotify-adblock --noconfirm
+yay -S docker-desktop --noconfirm
 
 flatpak install flathub com.leinardi.gst -y
 flatpak install flathub org.gnome.DejaDup -y
