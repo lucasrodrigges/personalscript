@@ -5,7 +5,7 @@
 ### Installig softwares
 
 ```
-cd Downloads && 
+sudo pacman -S git --noconfirm 
 git clone https://github.com/lucasrodrigges/personalscript.git
 cd personalscript/
 sudo chmod +x install.sh && ./install.sh
