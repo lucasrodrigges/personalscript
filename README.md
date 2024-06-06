@@ -6,7 +6,8 @@
 
 ```
 cd Downloads && 
-wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/install.sh
+git clone https://github.com/lucasrodrigges/personalscript.git
+cd personalscript/
 sudo chmod +x install.sh && ./install.sh
 
 ``` 

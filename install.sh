@@ -9,10 +9,12 @@ echo '
 '
 sudo pacman -Syu --noconfirm
 
-sudo chdmod +x ./packages/*.sh
+ls
 
-source ./packages/pacman.sh
-source ./packages/yay.sh
+sudo chmod +x /packages/*.sh
+
+source /packages/pacman.sh
+source /packages/yay.sh
 
 # sudo groupadd docker
 # sudo usermod -aG docker $USER
