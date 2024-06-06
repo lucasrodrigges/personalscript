@@ -13,8 +13,8 @@ ls
 
 sudo chmod +x /packages/*.sh
 
-source /packages/pacman.sh
-source /packages/yay.sh
+source ./packages/pacman.sh
+source ./packages/yay.sh
 
 # sudo groupadd docker
 # sudo usermod -aG docker $USER
