@@ -6,16 +6,8 @@
 
 ```
 cd Downloads && 
-wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/arch-scripts/script-1.sh
-wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/arch-scripts/script-2.sh
-sudo chmod +x script-1.sh && ./script-1.sh
-
-``` 
-
-Reboot, then:
-
-``` 
-sudo chmod +x script-2.sh && ./script-2.sh
+wget -c https://raw.githubusercontent.com/lucasrodrigges/personalscript/main/install.sh
+sudo chmod +x install.sh && ./script-1.sh
 
 ``` 
 

@@ -9,6 +9,8 @@ echo '
 '
 sudo pacman -Syu --noconfirm
 
+sudo chdmod +x ./packages/*.sh
+
 source ./packages/pacman.sh
 source ./packages/yay.sh
 
