@@ -12,7 +12,7 @@ ____                                       _
 
 
 
-ALL_APPS=("firefox" "git" "curl" "wget" "neofetch" "htop" "zsh" "dbeaver" "pipewire-jack" "pipewire-alsa" "pipewire-pulse" "qjackctl" "gnome-browser-connector" "man" "dmidecode" "obs-studio" "gnome-boxes" "qbittorrent")
+ALL_APPS=("firefox" "git" "curl" "wget" "neofetch" "htop" "zsh" "dbeaver" "pipewire-jack" "pipewire-alsa" "pipewire-pulse" "qjackctl" "gnome-browser-connector" "man" "dmidecode" "obs-studio" "gnome-boxes" "qbittorrent" "flameshot")
 
 APPS_TO_INSTALL=()
 
