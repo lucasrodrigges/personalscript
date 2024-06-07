@@ -42,7 +42,7 @@ yay_instalation() {
 yay_instalation
 
 if command -v yay &>/dev/null; then
-   ALL_APPS=("google-chrome" "visual-studio-code-bin" "vlc" "discord" "ardour" "postman" "spotify" "spotify-adblock" "docker" "docker-compose" "docker-desktop")
+   ALL_APPS=("google-chrome" "visual-studio-code-bin" "vlc" "discord" "ardour" "postman" "spotify" "spotify-adblock" "docker" "docker-compose" "docker-desktop" "onlyoffice-bin")
 
     APPS_TO_INSTALL=()
 
