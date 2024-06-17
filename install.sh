@@ -21,8 +21,8 @@ source ./packages/yay.sh
 # newgrp docker
 # docker run hello-world
 
-flatpak install flathub com.leinardi.gst -y
-flatpak install flathub org.gnome.DejaDup -y
+# flatpak install flathub com.leinardi.gst -y
+# flatpak install flathub org.gnome.DejaDup -y
 
-# sudo chsh -s $(which zsh)
-# sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
